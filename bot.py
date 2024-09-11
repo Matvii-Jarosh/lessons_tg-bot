@@ -503,7 +503,7 @@ async def donnate(update: Update, context: CallbackContext) -> None:
 async def t_git(update: Update, context: CallbackContext) -> None:
     try:
         user_id = update.message.from_user.id
-        await context.bot.send_message(chat_id=user_id, text="https://github.com/Matvii-Jarosh/lesson_notification_bot")
+        await context.bot.send_message(chat_id=user_id, text="https://github.com/Matvii-Jarosh/lessons_tg-bot")
     except Exception as e:
         print(f"Ошибка при отправке сылки на git: {e}")
 
