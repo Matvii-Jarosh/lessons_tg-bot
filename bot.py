@@ -66,7 +66,7 @@ schedule = [
     {"lesson": "Зарубіжна література", "room": "20", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8а"},
     {"lesson": "Зарубіжна література", "room": "20", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8а"},
     {"lesson": "Українська мова", "room": "30", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8а"},
-    {"lesson": "Алгебра", "room": "30", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8а"},
+    {"lesson": "Алгебра", "room": "15", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8а"},
     {"lesson": "Плавання", "room": "басейн", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8а"},
 
     {"lesson": "Українська література", "room": "30", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8а"},
@@ -115,10 +115,10 @@ schedule = [
     {"lesson": "Українська література", "room": "30", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8б"},
     {"lesson": "Мистецтво", "room": "34", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8б"},
     {"lesson": "Хімія", "room": "14", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8б"},
-    {"lesson": "Інформатика/Англіська мова", "room": "21", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8б"},
+    {"lesson": "Інформатика/Англіська мова", "room": "3/21", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8б"},
 
     {"lesson": "Алгебра", "room": "23", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8б"},
-    {"lesson": "Географія", "room": "20", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8б"},
+    {"lesson": "Географія", "room": "24", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8б"},
     {"lesson": "Труди", "room": "4/1", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8б"},
     {"lesson": "Біологія", "room": "12", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8б"},
     {"lesson": "Хімія", "room": "14", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8б"},
@@ -137,7 +137,7 @@ schedule = [
     {"lesson": "Біологія", "room": "12", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8б"},
     {"lesson": "Українська мова", "room": "30", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8б"},
     {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8б"},
-    {"lesson": "Інформатика/Англіська мова", "room": "7/21", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8б"},
+    {"lesson": "Інформатика/Англіська мова", "room": "3/21", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8б"},
 
     # 8 В класс
     {"lesson": "Українська мова", "room": "30", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8в"},
@@ -148,8 +148,8 @@ schedule = [
     {"lesson": "Історія", "room": "33", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "8в"},
 
     {"lesson": "Англіська мова", "room": "21/44", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
-    {"lesson": "Біологія", "room": "30", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
-    {"lesson": "Історія", "room": "12", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
+    {"lesson": "Біологія", "room": "12", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
+    {"lesson": "Історія", "room": "31", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
     {"lesson": "Історія", "room": "31", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
     {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
     {"lesson": "Українська мова", "room": "30", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "8в"},
@@ -159,7 +159,7 @@ schedule = [
     {"lesson": "Плавання", "room": "басейн", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8в"},
     {"lesson": "Географія", "room": "24", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8в"},
     {"lesson": "Хімія", "room": "14", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8в"},
-    {"lesson": "Труди", "room": "20", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8в"},
+    {"lesson": "Труди", "room": "4/1", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "8в"},
 
     {"lesson": "Українська лытература", "room": "30", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "8в"},
     {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "8в"},
@@ -174,49 +174,9 @@ schedule = [
     {"lesson": "Інформатика", "room": "3/7", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8в"},
     {"lesson": "Алгебра", "room": "29", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8в"},
     {"lesson": "Біологія", "room": "12", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8в"},
-    {"lesson": "Англіська мова", "room": "21", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8в"},
+    {"lesson": "Англіська мова", "room": "21/22", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8в"},
     {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "8в"},
-
-    # 9 А класс
-    {"lesson": "Англіська мова", "room": "25а", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "9а"},
-    {"lesson": "Алгебра", "room": "23", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "9а"},
-    {"lesson": "Основи здоров'я", "room": "33", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "9а"},
-    {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "9а"},
-    {"lesson": "Зарібіжна література", "room": "22", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "9а"},
-    {"lesson": "Українська мова", "room": "33", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "9а"},
-    {"lesson": "Англіська мова", "room": "25а", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "9а"},
-
-    {"lesson": "Біологія", "room": "12", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-    {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-    {"lesson": "Англіська мова/Інформатикка", "room": "25а/3", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-    {"lesson": "Інформатикка/Англіська мова", "room": "3/25а", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-    {"lesson": "Історія", "room": "27", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-    {"lesson": "Геометрія", "room": "23", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-    {"lesson": "Плавання", "room": "басейн", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-    {"lesson": "Труди", "room": "4/1", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "9а"},
-
-    {"lesson": "Хімія", "room": "14", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "9а"},
-    {"lesson": "Хімія", "room": "14", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "9а"},
-    {"lesson": "Біологія", "room": "12", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "9а"},
-    {"lesson": "Географія", "room": "22", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "9а"},
-    {"lesson": "Географія/Історія", "room": "22/27", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "9а"},
-    {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "9а"},
-    {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "9а"},
-
-    {"lesson": "Українська мова", "room": "33", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "9а"},
-    {"lesson": "Українська література", "room": "33", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "9а"},
-    {"lesson": "Англіська мова/Інформатикка", "room": "25а/3", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "9а"},
-    {"lesson": "Інформатикка/Англіська мова", "room": "3/25а", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "9а"},
-    {"lesson": "Алгебра", "room": "23", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "9а"},
-    {"lesson": "Історія", "room": "27", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "9а"},
-    {"lesson": "Зарібіжна література", "room": "22", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "9а"},
-
-    {"lesson": "Геометрія", "room": "23", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "9а"},
-    {"lesson": "Правознаство", "room": "27", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "9а"},
-    {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "9а"},
-    {"lesson": "Українська література", "room": "33", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "9а"},
-    {"lesson": "Мистецство", "room": "34", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "9а"},
-
+    
     # 10 А класс
     {"lesson": "Алгебра", "room": "15", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10а"},
     {"lesson": "Алгебра", "room": "15", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10а"},
@@ -238,9 +198,9 @@ schedule = [
 
     {"lesson": "Геометрія", "room": "15", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
     {"lesson": "Геометрія", "room": "15", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
-    {"lesson": "Англіська мова/Інфрматика", "room": "17/6", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
-    {"lesson": "Англіська мова/Інфрматика", "room": "17/6", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
-    {"lesson": "Інформатика/Англіська мова", "room": "6/17", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
+    {"lesson": "Англіська мова/Інфрматика", "room": "17/3", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
+    {"lesson": "Англіська мова/Інфрматика", "room": "17/3", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
+    {"lesson": "Інформатика/Англіська мова", "room": "3/17", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
     {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
     {"lesson": "Українська література", "room": "31", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
     {"lesson": "Технології", "room": "4/1", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10а"},
@@ -268,7 +228,7 @@ schedule = [
     {"lesson": "Історія", "room": "25", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10б"},
     {"lesson": "Громад освіта", "room": "27", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10б"},
     {"lesson": "Громад освіта", "room": "27", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10б"},
-    {"lesson": "Фізкультура", "room": "", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10б"},
+    {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10б"},
     {"lesson": "Інформатика/Англіська мова", "room": "7/21", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10б"},
     {"lesson": "Інформатика", "room": "7", "time": (datetime.strptime("15:00", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 0, "class": "10б"},
 
@@ -276,17 +236,17 @@ schedule = [
     {"lesson": "Українська мова", "room": "32", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
     {"lesson": "Історія Українськааїни", "room": "25", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
     {"lesson": "Математика", "room": "15", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
-    {"lesson": "Математика", "room": "15", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
+    {"lesson": "Математика", "room": "22", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
     {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
-    {"lesson": "Технології", "room": "4/1", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
-    {"lesson": "Фізкультура", "room": "", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
+    {"lesson": "Технології/Фізика", "room": "4/1/26", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
+    {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 1, "class": "10б"},
 
     {"lesson": "Українська література", "room": "32", "time": (datetime.strptime("08:25", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
     {"lesson": "Українська література", "room": "32", "time": (datetime.strptime("09:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
     {"lesson": "Інформатика/Англіська мова", "room": "7/21", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
-    {"lesson": "Фізкультура", "room": "", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
-    {"lesson": "Математика", "room": "15", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
-    {"lesson": "Зарубіжна літератураіжна література", "room": "20", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
+    {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
+    {"lesson": "Математика", "room": "22", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
+    {"lesson": "Зарубіжна література", "room": "20", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
     {"lesson": "Хімія", "room": "14", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
     {"lesson": "Інформатика", "room": "7", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 2, "class": "10б"},
 
@@ -299,12 +259,12 @@ schedule = [
     {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "10б"},
     {"lesson": "Географія", "room": "24", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "10б"},
     {"lesson": "Історія", "room": "25", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "10б"},
-    {"lesson": "Історія", "room": "25", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "10б"},
+    {"lesson": "Історія", "room": "25", "time": (datetime.strptime("15:00", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 3, "class": "10б"},
 
     {"lesson": "Географія", "room": "24", "time": (datetime.strptime("10:10", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "10б"},
     {"lesson": "Історія", "room": "25", "time": (datetime.strptime("11:05", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "10б"},
     {"lesson": "Фізика", "room": "26", "time": (datetime.strptime("11:50", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "10б"},
-    {"lesson": "Фізкультура", "room": "", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "10б"},
+    {"lesson": "Фізкультура", "room": "спорт зал", "time": (datetime.strptime("12:35", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "10б"},
     {"lesson": "Математика", "room": "15", "time": (datetime.strptime("13:30", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "10б"},
     {"lesson": "Математика", "room": "15", "time": (datetime.strptime("14:15", "%H:%M") - timedelta(hours=3)).strftime("%H:%M"), "day": 4, "class": "10б"},
 ]
@@ -611,7 +571,7 @@ async def licenses(update: Update, context: CallbackContext) -> None:
 async def news(update: Update, context: CallbackContext) -> None:
     try:
         user_id = update.message.from_user.id
-        await context.bot.send_message(chat_id=user_id, text=("Был обновлено количество команд и улучшено взаимодействие с пользывателем"))
+        await context.bot.send_message(chat_id=user_id, text=("Было обновлено расписание и добавлено несколько классов"))
     except Exception as e:
         print(f"Ошибка при отправке новостей: {e}")
 
